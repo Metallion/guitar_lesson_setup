@@ -9,7 +9,7 @@ i3-msg "append_layout ${SCRIPT_DIR}/lesson_setup/i3_layout/lesson_layout.json"
 hydrogen &
 pw-jack jack_mixer -c "${SCRIPT_DIR}/lesson_setup/mixer_config/andreas.xml" mixer_andreas &
 pw-jack jack_mixer -c "${SCRIPT_DIR}/lesson_setup/mixer_config/itani.xml" mixer_itani &
-alacritty &
+alacritty -e "${SCRIPT_DIR}/lesson_setup/start_terminal.sh" &
 
 pw-jack qjackctl &
 skypeforlinux &
