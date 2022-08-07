@@ -1,0 +1,275 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 3 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1050,
+               "width": 1276,
+               "x": 2562,
+               "y": 20
+            },
+            "marks": [],
+            "name": "Hydrogen 1.1.1- - 8-beat.h2song",
+            "percent": 0.433333333333333,
+            "swallows": [
+               {
+               // "class": "^Hydrogen$",
+               // "instance": "^hydrogen$",
+               // "machine": "^wakame$",
+               // "title": "^Hydrogen\\ 1\\.1\\.1\\-\\ \\-\\ 8\\-beat\\.h2song$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 600,
+               "width": 800,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Alacritty",
+            "percent": 0.133333333333333,
+            "swallows": [
+               {
+               // "class": "^Alacritty$",
+               // "instance": "^Alacritty$",
+               // "machine": "^wakame$",
+               // "title": "^Alacritty$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.433333333333333,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 420,
+                       "width": 420,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "mixer_andreas",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       // "class": "^Jack_mixer$",
+                       // "instance": "^jack_mixer$",
+                       // "machine": "^wakame$",
+                       // "title": "^mixer_andreas$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 420,
+                       "width": 420,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "mixer_itani",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       // "class": "^Jack_mixer$",
+                       // "instance": "^jack_mixer$",
+                       // "machine": "^wakame$",
+                       // "title": "^mixer_itani$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1600,
+               "width": 1916,
+               "x": 962,
+               "y": 278
+            },
+            "marks": [],
+            "name": "JACK Audio Connection Kit [(default)] Active. — QjackCtl",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^QjackCtl$",
+               // "instance": "^qjackctl$",
+               // "machine": "^wakame$",
+               // "title": "^JACK\\ Audio\\ Connection\\ Kit\\ \\[\\(default\\)\\]\\ Active\\.\\ \\—\\ QjackCtl$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2121,
+               "width": 1916,
+               "x": 1922,
+               "y": 18
+            },
+            "marks": [],
+            "name": "Skype",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Skype$",
+               // "instance": "^skype$",
+               // "machine": "^wakame$",
+               // "title": "^Skype$",
+               // "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2141,
+               "width": 3840,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "i3: Layout saving in i3 - Vivaldi",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Vivaldi\\-stable$",
+               // "instance": "^vivaldi\\-stable$",
+               // "machine": "^wakame$",
+               // "title": "^i3\\:\\ Layout\\ saving\\ in\\ i3\\ \\-\\ Vivaldi$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 694,
+               "width": 1148,
+               "x": 2690,
+               "y": 1445
+            },
+            "marks": [],
+            "name": "Clementine",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Clementine$",
+               // "instance": "^clementine$",
+               // "machine": "^wakame$",
+               // "title": "^Clementine$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": null,
+    "rect": {
+       "height": 927,
+       "width": 2879,
+       "x": 0,
+       "y": 0
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 2,
+            "floating": "auto_on",
+            "geometry": {
+               "height": 927,
+               "width": 2879,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "tilda",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Tilda$",
+               // "instance": "^tilda$",
+               // "machine": "^wakame$",
+               // "title": "^tilda$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

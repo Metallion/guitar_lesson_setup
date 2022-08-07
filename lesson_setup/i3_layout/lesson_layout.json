@@ -1,0 +1,217 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "name": "lesson",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1050,
+               "width": 1276,
+               "x": 2562,
+               "y": 20
+            },
+            "marks": [],
+            "name": "Hydrogen 1.1.1- - 8-beat.h2song",
+            "percent": 0.433333333333333,
+            "swallows": [
+               {
+                   "class": "^Hydrogen$",
+                   "instance": "^hydrogen$",
+                   "title": "^Hydrogen\\ 1\\.1\\.1\\-\\ \\-\\ 8\\-beat\\.h2song$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 600,
+               "width": 800,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Alacritty",
+            "percent": 0.133333333333333,
+            "swallows": [
+               {
+                   "class": "^Alacritty$",
+                   "instance": "^Alacritty$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.433333333333333,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 420,
+                       "width": 420,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "mixer_andreas",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                           "class": "^Jack_mixer$",
+                           "instance": "^jack_mixer$",
+                           "title": "^mixer_andreas$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 420,
+                       "width": 420,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "mixer_itani",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                           "class": "^Jack_mixer$",
+                           "instance": "^jack_mixer$",
+                           "title": "^mixer_itani$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1600,
+               "width": 1916,
+               "x": 962,
+               "y": 278
+            },
+            "marks": [],
+            "name": "JACK Audio Connection Kit [(default)] Active. — QjackCtl",
+            "percent": 0.5,
+            "swallows": [
+               {
+                   "class": "^QjackCtl$",
+                   "instance": "^qjackctl$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2121,
+               "width": 1916,
+               "x": 1922,
+               "y": 18
+            },
+            "marks": [],
+            "name": "Skype",
+            "percent": 0.5,
+            "swallows": [
+               {
+                   "class": "^Skype$",
+                   "instance": "^skype$",
+                   "title": "^Skype$",
+                   "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2141,
+               "width": 3840,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "i3: Layout saving in i3 - Vivaldi",
+            "percent": 0.5,
+            "swallows": [
+               {
+                   "class": "^Vivaldi\\-stable$",
+                   "instance": "^vivaldi\\-stable$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 694,
+               "width": 1148,
+               "x": 2690,
+               "y": 1445
+            },
+            "marks": [],
+            "name": "Clementine",
+            "percent": 0.5,
+            "swallows": [
+               {
+                   "class": "^Clementine$",
+                   "instance": "^clementine$",
+                   "title": "^Clementine$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
