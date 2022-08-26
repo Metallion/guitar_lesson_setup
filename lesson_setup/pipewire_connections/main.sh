@@ -4,7 +4,6 @@
 
 GUITAR_CAPTURE_L="alsa_input.usb-Yamaha_Corporation_THR10-00.analog-surround-40:capture_FL"
 GUITAR_CAPTURE_R="alsa_input.usb-Yamaha_Corporation_THR10-00.analog-surround-40:capture_FR"
-VOICE_CAPTURE="alsa_input.pci-0000_0c_00.4.analog-stereo:capture_FL"
 THR10_MONITOR_L="alsa_output.usb-Yamaha_Corporation_THR10-00.analog-stereo:monitor_FL"
 THR10_MONITOR_R="alsa_output.usb-Yamaha_Corporation_THR10-00.analog-stereo:monitor_FR"
 
@@ -38,13 +37,12 @@ fi
 # Mixer inputs
 pw-link "$GUITAR_CAPTURE_L" "mixer_andreas:Guitar L"
 pw-link "$GUITAR_CAPTURE_R" "mixer_andreas:Guitar R"
-pw-link "$VOICE_CAPTURE" "mixer_andreas:Voice"
 pw-link "$THR10_MONITOR_L" "mixer_andreas:PC Audio L"
 pw-link "$THR10_MONITOR_R" "mixer_andreas:PC Audio R"
 
 # Hydrogen
-pw-link "Hydrogen:out_L" "$THR10_PLAYBACK_L"
-pw-link "Hydrogen:out_R" "$THR10_PLAYBACK_R"
+pw-link "Hydrogen:output_FL" "$THR10_PLAYBACK_L"
+pw-link "Hydrogen:output_FR" "$THR10_PLAYBACK_R"
 
 ## Itani Voice
 pw-link "mixer_itani:Itani Voice Out L" "$PC_ONBOARD_PLAYBACK_L"
