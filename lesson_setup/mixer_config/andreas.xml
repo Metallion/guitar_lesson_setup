@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<jack_mixer geometry="636x908" paned_position="518" visible="True">
-	<input_channel name="Guitar" type="stereo" direct_output="False" volume="3.189056" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
-	<input_channel name="Voice" type="mono" direct_output="False" volume="-11.744020" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="15" balance_midi_cc="16" mute_midi_cc="17" solo_midi_cc="18"/>
-	<input_channel name="PC Audio" type="stereo" direct_output="False" volume="-22.402999" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="23" balance_midi_cc="24" mute_midi_cc="25" solo_midi_cc="26"/>
-	<output_channel name="Master" type="stereo" color="rgb(71,66,139)" volume="-8.886625" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="27" balance_midi_cc="28" mute_midi_cc="29"/>
+<jack_mixer geometry="636x908" paned_position="520" visible="True">
+	<input_channel name="Guitar" type="stereo" direct_output="False" volume="-2.265687" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
+	<input_channel name="Voice" type="mono" direct_output="False" volume="7.428522" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="15" balance_midi_cc="16" mute_midi_cc="17" solo_midi_cc="18"/>
+	<input_channel name="PC Audio" type="stereo" direct_output="False" volume="0.962565" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="23" balance_midi_cc="24" mute_midi_cc="25" solo_midi_cc="26"/>
+	<output_channel name="Master" type="stereo" color="rgb(71,66,139)" volume="-2.289730" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="27" balance_midi_cc="28" mute_midi_cc="29"/>
 	<gui_factory confirm-quit="False" default_meter_scale="K20" default_project_path="" default_slider_scale="linear_30dB" midi_behavior_mode="0" use_custom_widgets="False" vumeter_color="#ccb300" vumeter_color_scheme="default" auto_reset_peak_meters="False" auto_reset_peak_meters_time_seconds="2.0" meter_refresh_period_milliseconds="33"/>
 </jack_mixer>
