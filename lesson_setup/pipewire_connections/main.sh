@@ -18,22 +18,6 @@ THR10_PLAYBACK_R="alsa_output.usb-Yamaha_Corporation_THR10-00.analog-stereo:play
 PC_ONBOARD_PLAYBACK_L="alsa_output.pci-0000_0c_00.4.analog-stereo:playback_FL"
 PC_ONBOARD_PLAYBACK_R="alsa_output.pci-0000_0c_00.4.analog-stereo:playback_FR"
 
-# Read all existing links and disconnect them all
-pw-link -l | while read line1 && read line2
-do
-  direction=$(echo $line2 | cut -d ' ' -f1)
-  if [[ "$direction" == "|->" ]]; then
-    output_interface="$(echo "$line2" | sed 's/.*|-> //')"
-    pw-link -d "$line1" "$output_interface"
-  fi
-done
-
-if [[ "$1" == "disconnect" ]]; then
-  exit 0
-fi
-
-# Connect everything the way it should be
-
 # Mixer inputs
 pw-link "$GUITAR_CAPTURE_L" "mixer_andreas:Guitar L"
 pw-link "$GUITAR_CAPTURE_R" "mixer_andreas:Guitar R"
